@@ -175,6 +175,8 @@ text-align: left;
     justify-content: space-evenly;
     flex-direction: row;
     margin-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 #card{
     background-image: url(./assets/card-bg.svg);
@@ -229,3 +231,45 @@ margin-top: 10px;
     text-align: right;
 
 }
+
+footer{
+  padding: 50px;
+  background-image: url(./assets/Background_hero.svg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 1386px;
+  height: 707px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+}
+footer>div>button{
+  margin-top: 20px;
+  box-shadow: 2px 3px 2px 0px #00000040;
+  border-radius: 24px;
+  width: 251px;
+height: 49px;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+background-image: linear-gradient(to left,rgb(59,176,139),rgb(44,86,170));
+border: none;
+color: white;
+
+
+
+}
+footer>div{
+  width: 523px;
+}
+#footer-body>img{
+  height: 163px;
+}
+#footer-img>img{
+  height: 393px;
+  width: 551px;
+}
+
